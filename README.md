@@ -1,7 +1,7 @@
 # Cipher algorithms-project
 Cipher algorithms-project is a website built using html , css and javascript with responsive that provides 7 encryption algorithms for decoding and encoding text. The app is developed by  Nada Hamdy, a software engineer and computer science student at Suez Canal University, as a practical discussion of cyber security subject in faculty of computer informatics Suez Canal University.
 
-**"Features"
+**Features**
 
 The project explores different Cipher algorithms, including the Caesar Cipher, autokey Cipher, Playfair Cipher,railfevce Cipher,polyalphabetic Cipher,monoalphabetic Cipher ,and DES Cipher .
 . Each Cipher has a detailed explanation of how it works and how to use it, as well as an interactive tool where you can encrypt and decrypt messages using the algorithm and custom validation for inputs.
