@@ -40,27 +40,6 @@ textarea {
     margin-top: -20px;
   }
 
-  @media (max-width: 850px) {
-    textarea{
-      width: 100%;
-    }
-    .inOut{
-      display: inline-table;
-       justify-content: center;
-       margin-top: 20px;
-     }
-   
-  }
-  @media (min-width: 851px)
-  {
-    .textleft{
-      margin-right: 100px;
-    }
-    .textright{
-      margin-left: 100px;
-    }
-  }
-  
 
   
   /* a class dividing a containter into 2 sections used in cipher pages */
@@ -87,21 +66,21 @@ textarea {
     transition: all 0.3s;
     padding: 15px;
     margin-bottom: 10px;
-    width:20%;
+    width:300px;
     box-sizing: border-box;
     outline:0;
     display: inline-block;
     height: 50px;
     line-height: 150%;
   }
+ 
   
  button{
     background-color: rgb(175, 171, 171) ;
     border:2px solid transparent;
     transition: all 0.3s;
-    padding: 10px;
     margin-top:15px;
-    width:10%;
+    width:150px;
     box-sizing: border-box;
     outline:0;
     display: inline-block;
@@ -113,4 +92,28 @@ textarea {
  button:hover{
     background-color: #FFC100AD;
  }
-  /*NEW*/
+  
+ @media (max-width: 850px) {
+  textarea{
+    width: 100%;
+  }
+  .inOut{
+    display: inline-table;
+     justify-content: center;
+     margin-top: 20px;
+   }
+   .outsideScreen{
+    font-size: 10px;
+   }
+ 
+}
+
+@media (min-width: 851px)
+{
+  .textleft{
+    margin-right: 100px;
+  }
+  .textright{
+    margin-left: 100px;
+  }
+}
