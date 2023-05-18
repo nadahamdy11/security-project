@@ -24,6 +24,8 @@ https://github.com/nadahamdy11/security-project/assets/92950618/8f685020-cf35-49
 
 
 Encryption Algorithms
+
+
 DES
 The Data Encryption Standard (DES) is a symmetric-key block cipher that uses a 56-bit key. It operates on 64-bit blocks of data and is widely used for encryption of electronic data. Swidan's Encryption Hub provides DES encryption and decryption functionalities with full and custom validation for inputs.
 
