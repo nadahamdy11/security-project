@@ -1,6 +1,5 @@
 .card{
   display: flex;
-  flex-direction: row;
   width:1200px;
   height: 840px;
   margin-left:10% ;
@@ -18,10 +17,12 @@
 h1 {
   font-family: 'Questrial', Verdana, sans-serif;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   color: #f1e9e9;
   margin-bottom: 30px;
 }
+
+
 
 #content {
   position: relative;
@@ -60,6 +61,26 @@ h1 {
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
+}
+@media (max-width: 750px) {
+  .card{
+    display: block;
+    margin-left: 1%;
+  }
+  .card img{
+    width: 300px;
+    height: 300px;
+margin-left: 20px;    
+    margin-top: 50px;
+  
+
+  }
+  #content{
+    width: 250px;
+    position:static;
+    margin-left: 20px;
+  }
+
 }
 
 body{
@@ -214,7 +235,7 @@ text-align: center;
    word-wrap: break-word;
   }
 
-@media (max-width: 850px) {
+@media (max-width: 750px) {
   .flex-container {
     flex-direction: column;
   }
@@ -230,7 +251,7 @@ text-align: center;
 
 .btn-group{
  margin: auto;
-  width: 50%;
+  width: 60%;
   padding: 10px;
   text-align: center;
   align-content: center;
@@ -274,13 +295,12 @@ text-align: center;
   
 }
 @media (max-width: 750px) {
-  div.btn-group {
+  .btn-group {
   
     position: absolute;
     width: 0px 0px;
     vertical-align: middle;
-    display: inline-block;
-    left: 15%;
+    display: block;
     
   }
   .ciphers_button{
