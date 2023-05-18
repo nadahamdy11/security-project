@@ -14,7 +14,7 @@ Thanks for taking the time to check it out!
 **Screens**
 
 ![Capture](https://github.com/nadahamdy11/security-project/assets/92950618/36d7adfc-1b87-4dd2-869d-efce053a3974)
-** our algorithms**
+**our algorithms**
  
  ![Capture1](https://github.com/nadahamdy11/security-project/assets/92950618/b352c37f-0aae-407b-ac05-2bbc503d3f58)
 **how to use??**
